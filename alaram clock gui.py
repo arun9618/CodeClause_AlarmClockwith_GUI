@@ -16,6 +16,8 @@ def alarm(setAlarmTimer):
         print(the_message)
         if currentTime == setAlarmTimer:
             ws.PlaySound("sound.wav", ws.SND_ASYNC)
+            print("Hurry up it's Time to Wake up")
+            print("Have a Nice Day")
             break
 
 
